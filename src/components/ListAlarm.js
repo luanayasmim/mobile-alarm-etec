@@ -25,7 +25,7 @@ function ListAlarm(props){
         );
     });
     return(
-        <View>
+        <View style={styles.container}>
             <FlatList
                 keyExtractor={keyExtrator}
                 data={props.alarms}
@@ -47,5 +47,14 @@ const mapDispatchToProps = ((dispatch)=>{
         }
     }
 });
+
+const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: '#fff',
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+  });
 
 export default connect(mapStateProps, mapDispatchToProps)(ListAlarm);
