@@ -1,4 +1,4 @@
-import { ADD_ALARM } from "../actions/index.js.js";
+import { ADD_ALARM } from "../actions/index.js";
 import { Moment } from "moment";
 
 const initialState={

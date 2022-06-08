@@ -1,8 +1,7 @@
-import { createStore, combineRedicers } from "redux";
+import { createStore, combineReducers } from 'redux';
 import alarmReducer from '../reducers/alarmReducer';
-//import alarmReducer from "../reducers/alarmReducer.js";
 
-const rootReducer=combineRedicers({
+const rootReducer= combineReducers({
     alarms: alarmReducer,
 });
 

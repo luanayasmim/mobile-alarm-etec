@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Alert, Button } from 'react-native';
 import DateTimePicker from 'react-native-modal-datetime-picker';
 import { connect } from 'react-redux';
-import { addAlarm } from '../actions/alarms';
+import { addAlarm } from '../actions/alarm';
 import ReactNativeAN from 'react-native-alarm-notification';
 
 function TimePicker(props){

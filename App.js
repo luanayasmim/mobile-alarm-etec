@@ -1,5 +1,4 @@
 import { SafeAreaView, StyleSheet, Text, View } from "react-native";
-//import ListAlarm from "./components/ListAlarm";
 import ListAlarm from "./src/components/ListAlarm.js"
 import TimePicker from "./src/components/TimePicker.js";
 

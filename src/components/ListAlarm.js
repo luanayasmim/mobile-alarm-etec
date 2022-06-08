@@ -1,7 +1,8 @@
 import { Button, FlatList, StyleSheet, Text, View } from 'react-native';
 import { ListItem } from 'react-native-elements';
 import { connect } from 'react-redux';
-import { removeAlarm } from '../actions/alarms';
+// import { removeAlarm } from '../actions/alarms';
+import  {removeAlarm} from '../actions/alarm.js'
 
 function ListAlarm(props){
     const keyExtrator = ((item, index)=> index.toString());
